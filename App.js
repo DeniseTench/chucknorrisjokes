@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   getJoke() {
-    axios.get('http://api.icndb.com/jokes/random?exclude=[explicit]')
+    axios.get('https://api.icndb.com/jokes/random?exclude=[explicit]')
     .then((response) => {
       this.setState({ joke: response.data.value.joke })
       console.log(response.data)
