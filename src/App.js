@@ -41,7 +41,9 @@ class App extends React.Component {
           className="joke-button"
           onClick={this.getJoke}>
           Random Joke</button>
+        <p><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chuck-norris-finger-wag-1551304759.jpg?crop=0.864xw:1xh;center,top&resize=768:*"/></p>
       </div>
+
       
     );
   }
