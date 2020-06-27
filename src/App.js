@@ -30,9 +30,9 @@ class App extends React.Component {
   render() {
     return(
       <div className="container">
-        <header><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/The_co-operative_bank_logo.svg' alt="co-opbanklogo"/></header>
-        <h1>Employee Chuck Norris Random Joke Generator</h1><br></br>
-        <h2>Need a short break? You're in the right place</h2><br></br>
+        <header><img src='https://www.placecage.com/gif/200/300' alt="mclogo"/></header>
+        <h1>Manchester Codes Students' Chuck Norris Random Joke Generator</h1><br></br>
+        <h2>Need a short break from your coding? You're in the right place</h2><br></br>
         <h3 dangerouslySetInnerHTML={{__html: this.state.joke}}></h3><br></br>
         <button 
           style={{color: 'white', background: '#0494cd', padding: '20px', borderRadius: '20px', fontWeight: 'bold'}
