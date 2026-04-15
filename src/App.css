@@ -1,0 +1,111 @@
+/* 1. GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Nunito+Sans:wght@700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. BODY & GLOBAL STYLES */
+body {
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: #313e47 !important;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 70px 20px 20px 20px; /* Reduced bottom padding to close gap */
+}
+
+/* 3. HEADERS & TEXT */
+.container h1 {
+    font-family: 'Chelsea Market', cursive !important;
+    color: #f1583e !important;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-decoration: none !important;
+}
+
+.container h2, 
+.container h3, 
+.container p {
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: #313e47 !important;
+    font-weight: 800 !important;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.container p:last-of-type {
+    margin-bottom: 0 !important;
+}
+
+/* 4. THE JOKE BUTTON */
+.joke-button {
+    font-family: 'Chelsea Market', cursive !important;
+    background-color: #f1583e !important;
+    color: #ffffff !important;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    transition: background-color 0.3s ease;
+}
+
+.joke-button:hover {
+    background-color: #313e47 !important; /* Turns Slate when you hover the button */
+}
+
+/* 5. FOOTER & SOCIAL ICONS */
+footer {
+    background-color: #313e47;
+    padding: 15px 0; /* A bit more breathing room top/bottom */
+    text-align: center;
+}
+
+/* Space out the anchor tags */
+.footericons a {
+    margin: 0 10px !important; /* The "Together but not touching" gap */
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+/* The actual Icon styling */
+.social {
+    color: #f2f3f4 !important; /* Off-white base */
+    transition: all 0.3s ease !important;
+    display: inline-block;
+}
+
+/* 1. Remove the generic orange hover so it doesn't clash */
+.social:hover {
+    transform: scale(1.2) !important;
+    /* We don't put a color here anymore */
+}
+
+/* 2. GitHub Hover (Purple/Black) */
+#social-gh:hover {
+    color: #6e5494 !important;
+}
+
+/* 3. Envelope/Email Hover (Manchester Orange - keep your brand!) */
+#social-em:hover {
+    color: #f1583e !important;
+}
+
+/* 4. Twitter/X Hover (Classic Sky Blue) */
+#social-tw:hover {
+    color: #1da1f2 !important;
+}
+
+/* 5. Ensure the transition stays smooth for all of them */
+.social {
+    transition: all 0.3s ease !important;
+}
